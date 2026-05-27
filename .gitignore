@@ -1,0 +1,8 @@
+# clangd cache
+.cache/
+
+# Test outputs
+tests-out/
+
+# Binaries
+wish

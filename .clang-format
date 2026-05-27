@@ -1,0 +1,15 @@
+﻿---
+BasedOnStyle: Microsoft
+BreakBeforeBraces: Stroustrup
+ColumnLimit: '0'
+IncludeBlocks: Regroup
+IndentCaseLabels: 'false'
+IndentWidth: '4'
+PointerAlignment: Left
+SpaceBeforeCpp11BracedList: 'true'
+SpaceBeforeCtorInitializerColon: 'true'
+SpaceBeforeInheritanceColon: 'true'
+SpaceInEmptyParentheses: 'false'
+TabWidth: '4'
+
+...

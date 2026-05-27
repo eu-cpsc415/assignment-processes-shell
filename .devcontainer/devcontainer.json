@@ -1,0 +1,21 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu24.04",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "clangd.path": "/usr/bin/clangd",
+        "clangd.arguments": [
+          "--background-index",
+          "--clang-tidy",
+          "--completion-style=detailed"
+        ]
+      },
+      "extensions": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.makefile-tools",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y clangd"
+}
