@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Disable all line ending conversion; files are kept as-is on checkin/checkout
+* -text
