@@ -1,5 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu24.04",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "settings": {
